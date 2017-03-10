@@ -5,6 +5,8 @@
 # this file and re-run i3-config-wizard(1).
 #
 
+exec_always --no-startup-id /home/horeckyt/.config/i3/run_polybar.sh
+
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -218,7 +220,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 #	}
 #}
 
-exec_always --no-startup-id /home/horeckyt/.config/i3/run_polybar.sh
+
 
 
 # gaps
